@@ -1,0 +1,66 @@
+.container-view{
+    width: 1280px;
+    height: 720px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.container-header{
+    margin-top: 20px;
+    word-break: normal;
+}
+
+.title{
+    color: var(--primary);
+}
+
+.container-body {
+    width: 1080px;
+    height: 600px;
+    background-color: #eeeded;
+    border-radius: 20px;
+    align-content: center;
+    padding: 20px 20px;
+    overflow: auto;
+}
+
+.icon-card {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 25px;
+    display: inline-block;
+    transition: transform .3s;
+}
+
+.centered{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.icon-card:hover {
+    transform: scale(1.8);
+    transition: all .3s ease-in-out;
+    color: var(--primary);
+}
+
+.container-body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .container-body::-webkit-scrollbar-track {
+    border-radius: 25px;
+  }
+   
+  .container-body::-webkit-scrollbar-thumb {
+    background: var(--primary); 
+    border-radius: 25px;
+  }
+  
+  .container-body::-webkit-scrollbar-thumb:hover {
+    background: #0062cc; 
+  }
